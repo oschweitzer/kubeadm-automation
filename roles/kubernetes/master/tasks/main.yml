@@ -26,3 +26,5 @@
   run_once: yes
   ignore_errors: yes
 
+- name: "Add kubectl alias"
+  shell: echo "alias k='kubectl'" >> ~/.bashrc
